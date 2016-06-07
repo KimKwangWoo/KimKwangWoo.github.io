@@ -3,6 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <title>Techwide</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css" />
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/js/bootstrap.min.js"></script>
 <style>
 body {padding: 0; margin: 0;}
 img {vertical-align: middle; max-width: 100%;}
@@ -15,14 +17,27 @@ address,
 </style>
 </head>
 <body>
+<header class="navbar navbar-light bg-faded">
+  <a class="navbar-brand" href="#"><div class="logo"><img src="logo.png" alt=""></div></a>
+  <ul class="nav navbar-nav">
+    <li class="nav-item active">
+      <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">About</a>
+    </li>
+  </ul>
+</header>
+
 <div class="wrap">
 	<div class="img"><img src="comingsoon.jpg" alt=""></div>
-	<div class="logo"><img src="logo.png" alt=""></div>
-	<div class="foo">
-		<address> 서울특별시 금천구 가산디지털1로 212, 202호 (가산동, 코오롱디지털타워애스턴) | 전화 02-6224-7945 | 팩스 070-8776-7945</address>
-		<p class="copyright">Copyright ⓒ TechWIDE Co.,LTD. 2016. All Right Reserved.</p>
-	</div>
 </div>
+
+<footer class="foo">
+	<address> 서울특별시 금천구 가산디지털1로 212, 202호 (가산동, 코오롱디지털타워애스턴) | 전화 02-6224-7945 | 팩스 070-8776-7945</address>
+	<p class="copyright">Copyright ⓒ TechWIDE Co.,LTD. 2016. All Right Reserved.</p>
+</footer>
+
 </body>
 
 </html>
