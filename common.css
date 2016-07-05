@@ -1,8 +1,6 @@
 /*body { font-family: 'Noto Sans Korean', sans-serif; padding: 0; margin: 0; }*/
 body, pre, input, select, textarea, button { font-family: 'Nanum Gothic'; }
 
-body { padding-top: 70px; }
-
 body > section { padding: 100px 0; }
 
 @font-face {
