@@ -13,7 +13,31 @@
       <priority>0.8</priority>
    </url>
    <url>
+      <loc>http://techwide.co.kr/en/FactorySTAR/</loc>
+      <lastmod>2016-07-06</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <loc>http://techwide.co.kr/en/FactoryBook/</loc>
+      <lastmod>2016-07-06</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
       <loc>http://techwide.co.kr/ko/</loc>
+      <lastmod>2016-07-06</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <loc>http://techwide.co.kr/ko/FactorySTAR/</loc>
+      <lastmod>2016-07-06</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <loc>http://techwide.co.kr/ko/FactoryBook/</loc>
       <lastmod>2016-07-06</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.8</priority>
