@@ -30,6 +30,7 @@
 <script src="https://cdn.rawgit.com/twbs/bootstrap/v4-dev/dist/js/bootstrap.min.js"></script>
 <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>-->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/holder/2.9.3/holder.min.js"></script>
 <script>
 $(function() {
     $('a.page-scroll').bind('click', function(event) {
@@ -45,13 +46,210 @@ $(function() {
 <body data-spy="scroll" data-target="#navbar-scroll">
 <header class="navbar navbar-fixed-top navbar-light bg-faded" style="background-color: #ffffff;">
   <div class="container">
-    <a class="navbar-brand page-scroll" href="#home"><div class="logo"><img src="/img/techwide.png" alt="테크와이드"></div></a>
+    <a class="navbar-brand" href="/"><div class="logo"><img src="/img/techwide.png" alt="테크와이드"></div></a>
+    <a class="navbar-brand page-scroll" href="#home"><img class="" src="/img/logo_factorySTAR.png" alt="FactorySTAR®" /></a>
+
+    <div>
+      <ul id="navbar-scroll" class="nav navbar-nav pull-xs-right">
+        <li class="nav-item">
+          <a class="page-scroll nav-link" href="#system">시스템 기본 구성</a>
+        </li>
+        <li class="nav-item">
+          <a class="page-scroll nav-link" href="#level0">Level 0</a>
+        </li>
+        <li class="nav-item">
+          <a class="page-scroll nav-link" href="#level1">Level 1</a>
+        </li>
+        <li class="nav-item">
+          <a class="page-scroll nav-link" href="#level2">Level 2</a>
+        </li>
+        <li class="nav-item">
+          <a class="page-scroll nav-link" href="#competence">경쟁력</a>
+        </li>
+        <li class="nav-item">
+          <a class="page-scroll nav-link" href="#factorybook">FactoryBook® 서비스</a>
+        </li>
+        <li class="nav-item">
+          <a class="page-scroll nav-link" href="#casestudy">적용사례</a>
+        </li>
+        <li class="nav-item">
+          <a class="page-scroll nav-link" href="#effect">도입효과</a>
+        </li>
+      </ul>
+    </div>
   </div>
 </header>
 
 <section id="home">
   <div class="container">
+    <img class="img-fluid" src="/img/logo_factorySTAR_big.png" alt="FactorySTAR®" />
     <h1>FactorySTAR®</h1>
+    <p>무선 센서 네트워크 기반 설비 예지 진단 시스템</p>
+  </div>
+</section>
+
+<section id="system">
+  <div class="container">
+    <h1>시스템 기본 구성</h1>
+    <p></p>
+    <div class="row">
+      <div class="col-xs-12">
+        <img class="img-fluid" src="system.png" alt="시스템 기본 구성" />
+      </div>
+      <!--<div class="col-xs-12">
+        <img data-src="holder.js/100px100?text=Level2&bg=cccccc" alt="Level 2">
+      </div>
+      <div class="col-xs-12">
+        <img data-src="holder.js/100px100?text=Level1&bg=cccccc" alt="Level 1">
+      </div>
+      <div class="col-xs-12">
+        <img data-src="holder.js/100px100?text=Level0&bg=cccccc" alt="Level 0">
+      </div>-->
+    </div>
+  </div>
+</section>
+
+<section id="level0">
+  <div class="container">
+    <h1>Level 0</h1>
+    <p>Wireless Sensor Module</p>
+    <div class="row">
+        <div class="col-xs-4">
+          <img class="img-fluid" src="sensormodule_tv.png" alt="기계 설비용 온도/진동 센서 모듈" />
+        </div>
+        <div class="col-xs-4">
+          <img class="img-fluid" src="sensormodule_th.png" alt="전기 설비용 온도/습도 센서 모듈" />
+        </div>
+        <div class="col-xs-4">
+          <img class="img-fluid" src="sensormodule_ou.png" alt="전기 설비용 오존/초음파 센서 모듈 (2016년 출시예정)" />
+        </div>
+    </div>
+
+    <section>
+      <h4>온도 및 진동 센서 모듈</h4>
+      <div class="row">
+          <div class="col-xs-7">
+            <img class="img-fluid" src="sensormodule_tv_detail.png" alt="온도 및 진동 센서 모듈" />
+          </div>
+          <div class="col-xs-5">
+              <h5>하드웨어 사양</h5>
+              <p></p>
+          </div>
+      </div>
+    </section>
+
+    <section>
+      <h4>온도 및 습도 센서 모듈</h4>
+      <div class="row">
+          <div class="col-xs-7">
+            <img class="img-fluid" src="sensormodule_th_detail.png" alt="온도 및 습도 센서 모듈" />
+          </div>
+          <div class="col-xs-5">
+              <h5>하드웨어 사양</h5>
+              <p></p>
+          </div>
+      </div>
+    </section>
+
+  </div>
+</section>
+
+<section id="level1">
+  <div class="container">
+    <h1>Level 1</h1>
+    <p>Gateway</p>
+
+    <h4>게이트웨이</h4>
+    <div class="row">
+        <div class="col-xs-7">
+          <img class="img-fluid" src="gateway_detail.png" alt="게이트웨이" />
+        </div>
+        <div class="col-xs-5">
+            <h5>하드웨어 사양</h5>
+            <p></p>
+        </div>
+    </div>
+  </div>
+</section>
+
+<section id="level2">
+  <div class="container">
+    <h1>Level 2</h1>
+    <p>Monitoring Software</p>
+
+    <h4>FSAnalyzer</h4>
+    <div class="row">
+        <div class="col-xs-7">
+          <img class="img-fluid" src="monitoringsystem_detail.png" alt="모니터링 시스템" />
+        </div>
+        <div class="col-xs-5">
+            <h5>권장 소프트웨어 사양</h5>
+            <p></p>
+            <h5>권장 하드웨어 사양</h5>
+            <p></p>
+        </div>
+    </div>
+  </div>
+</section>
+
+<section id="competence">
+  <div class="container">
+    <h1>경쟁력</h1>
+    <p></p>
+
+    <div class="row">
+        <div class="col-xs-12">
+          <h5>생산공정 측면</h5>
+          <p></p>
+        </div>
+        <div class="col-xs-12">
+          <h5>효율성 측면</h5>
+          <p></p>
+        </div>
+        <div class="col-xs-12">
+          <h5>기능 측면</h5>
+          <p></p>
+        </div>
+        <div class="col-xs-12">
+          <h5>비용 측면</h5>
+          <p></p>
+        </div>
+        <div class="col-xs-12">
+          <h5>확장성 + 소프트웨어 기능성 측면</h5>
+          <p></p>
+        </div>
+    </div>
+  </div>
+</section>
+
+<section id="factorybook">
+  <div class="container">
+    <h1>FactorySTAR® 연계형 Mobile Connected Service (MCS)</h1>
+    <p>2016년 9월 서비스 개시</p>
+
+    <div class="row">
+      <div class="col-xs-12">
+        <h5>설비의 이상여부 알림 (푸시 메시지 서비스)</h5>
+        <h5>설비의 센서 데이터 변화 추이 실시간 확인</h5>
+        <h5>설비의 정비 이력 검색을 통한 진단기술 공유</h5>
+        <h5>설비의 담당자 및 관리자간 유기적 정보 공유</h5>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="casestudy">
+  <div class="container">
+    <h1>적용사례</h1>
+    <p></p>
+  </div>
+</section>
+
+<section id="effect">
+  <div class="container">
+    <h1>도입효과</h1>
+    <p>FactorySTAR®로 설비 예지 보전 체계 확립</p>
+    <img class="img-fluid" src="effect.png" alt="설비 예지 보전 체계 확립" />
   </div>
 </section>
 
@@ -62,7 +260,7 @@ $(function() {
         <p class="copyright">Copyright ⓒ (주)테크와이드 2016. All Rights Reserved.</p>
       </div>
       <div class="col-md-7">
-        <address>서울특별시 금천구 벚꽃로 234, 에이스하이엔드타워 6차, 212-3호</address>
+        <address>서울특별시 금천구 벚꽃로 234, 에이스하이엔드타워 6차, 212-3호 (우)08513</address>
         <address>전화 02-6224-7945 | 팩스 070-8776-7945</address>
       </div>
     </div>
